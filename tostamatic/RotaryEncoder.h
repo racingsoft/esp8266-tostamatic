@@ -50,6 +50,10 @@ class RotaryEncoder
 	static void addClickEvent();
 
 	static RotaryEvents* events;
+
+private:
+
+	static EncoderInternalState* encoder;
 };
 
 #endif

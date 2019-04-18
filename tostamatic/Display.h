@@ -10,8 +10,8 @@
 #endif
 
 #include "Graphics.h"
-#include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
-#include "SH1106Wire.h", legacy include: `#include "SH1106.h"`
+#include <Wire.h>
+#include <SH1106.h>
 
 class Display
 {
