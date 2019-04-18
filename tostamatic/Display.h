@@ -11,7 +11,7 @@
 
 #include "Graphics.h"
 #include <Wire.h>
-#include <SH1106.h>
+#include <SH1106Wire.h>
 
 class Display
 {
